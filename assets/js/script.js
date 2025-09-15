@@ -100,67 +100,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Slider initialization
 
-// Our Menu Slider
-$('#our-menus').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  fade: true,
-  speed: 300,
-  asNavFor: '.slider-indicators-wrapper',
-  draggable: false,
-  swipe: false,
-});
-
-// Navigation Slider for Our Menu
-$('.slider-indicators-wrapper').slick({
-  slidesToShow: 5,
-  slidesToScroll: 1,
-  asNavFor: '#our-menus',
-  dots: false,
-  arrows: true,
-  focusOnSelect: true,
-  draggable: false,
-  swipe: false,
-  prevArrow: '<button class="slide-arrow prev-arrow"><i class="fas fa-chevron-left"></i></button>',
-  nextArrow: '<button class="slide-arrow next-arrow"><i class="fas fa-chevron-right"></i></button>',
-  responsive: [
-    {
-      breakpoint: 991,
-      settings: {
-        slidesToShow: 5,
-      }
-    },
-    {
-      breakpoint: 990,
-      settings: {
-        slidesToShow: 1,
-        arrows: true,
-      }
-    }
-  ]
-});
-
-// Custom animation for Our Menu slider
-$('#our-menus').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
-  var $nextSlide = $(slick.$slides[nextSlide]);
-  var $currentSlide = $(slick.$slides[currentSlide]);
-
-  // Set initial state for the next slide
-  $nextSlide.css({
-    'transform': 'translateY(10%)',
-    'opacity': 0,
-  });
-
-  // Animate the next slide into view after a short delay
-  setTimeout(function() {
-    $nextSlide.css({
-      'transform': 'translateY(0)',
-      'opacity': 1,
-      'transition': 'transform 0.3s ease-in-out, opacity 0.3s ease-in-out'
-    });
-  }, 50); 
-});
 
 // Testimonials Slider
 $('.testimonials .slider-content').slick({
@@ -400,3 +339,4 @@ cartClose.forEach(function(closeBtn) {
 
   });
 })(jQuery);
+

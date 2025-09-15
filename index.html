@@ -38,7 +38,7 @@
   <body>
 
     <div class="loader">
-      <i class="fas fa-utensils loader-icone"></i>
+      <img src="./assets/images/logo.png" alt="Mr. Burp Logo" class="site-logo1">
       <p>Mr. Burp</p>
       <div class="loader-ellipses">
         <span></span>
@@ -52,7 +52,6 @@
   <div class="container header my-3 d-none d-lg-flex">
     <div class="logo">
       <a href="./index.html">
-        <i class="fa fa-utensils me-3"></i>
         <img src="./assets/images/logo.png" alt="Mr. Burp Logo" class="site-logo">
       </a>
     </div>
@@ -78,31 +77,39 @@
 </header>
 
 
-
 <main>
-<section class="banner py-5">
-  <div class="container py-5">
-    <div class="row">
-      <div class="col-md-6 banner-content pe-5" data-aos="fade-right" data-aos-delay="3000">
+<section class="banner">
+  <div class="container h-100">
+    <div class="row h-100">
+      <div class="col-md-6 banner-content pe-5 d-flex flex-column justify-content-center" data-aos="fade-right" data-aos-delay="3000">
         <h1 class="display-2">Meals That Move With You –  <br> Fresh. Filling. Healthy.</h1>
-          <p>
-            Mr. Burp isn’t junk food. It’s food that fuels you. Sandwiches, burgers, and rolls made fresh every single day,
-             with wholesome ingredients that keep you going anytime, anywhere. At your desk, on the way to office, at midnight cravings — 
-             Mr. Burp is always here to make sure you never miss a meal again
-          </p>
-          <div class="book-a-table">
-            <div class="anim-layer"></div>
-            <a href="#">Book a table</a>
-          </div>
+        <p>
+          Mr. Burp isn’t junk food. It’s food that fuels you. Sandwiches, burgers, and rolls made fresh every single day,
+          with wholesome ingredients that keep you going anytime, anywhere. At your desk, on the way to office, at midnight cravings — 
+          Mr. Burp is always here to make sure you never miss a meal again
+        </p>
+        <div class="book-a-table">
+          <div class="anim-layer"></div>
+          <a href="#">Book a table</a>
+        </div>
       </div>
-      <div class="col-md-6 banner-img" data-aos="fade-left" data-aos-delay="3000">
+      <div class="col-md-6 banner-img d-flex justify-content-center align-items-center" data-aos="fade-left" data-aos-delay="3000">
         <img class="img img-fluid mt-5 mt-lg-0" src="./assets/images/banner-img.png" alt="">
       </div>
     </div>
   </div>
 </section>
-      
-<section class="services my-5 py-5">
+
+<!-- 🔹 NEW PARALLAX BACKGROUND SECTION -->
+<section class="parallax-section">
+  <div class="overlay"></div>
+  <div class="parallax-content" data-aos="fade-up">
+    <h2>Fresh. Filling. Always with You.</h2>
+    <p>Your meals, reimagined with Mr. Burp.</p>
+  </div>
+</section>
+
+<section class="services">
   <div class="container">
     <div class="row gy-4">
       <div class="col-md-4">
@@ -152,150 +159,175 @@
 </section>
 
 
-      <section class="about-us py-5 my-5">
-        <div class="container">
-          <div class="row gy-5 g-lg-5 align-items-center">
-              <div class="col-lg-6 about-img-box">
-                  <div class="row g-3">
-                      <div class="col-6" data-aos="fade-right">
-                          <img class="img-fluid rounded w-100" src="./assets/images/about-1.jpg">
-                      </div>
-                      <div class="col-6 text-right" data-aos="fade-down">
-                          <img class="img-fluid rounded w-75" src="./assets/images/about-2.jpg">
-                      </div>
-                      <div class="col-6 text-end" data-aos="fade-right">
-                          <img class="img-fluid rounded w-75" src="./assets/images/about-3.jpg">
-                      </div>
-                      <div class="col-6 text-end" data-aos="fade-up">
-                          <img class="img-fluid rounded w-100" src="./assets/images/about-4.jpg">
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-6 about-content" data-aos="fade-left">
-                  <h5 class="section-title">About Us</h5>
-                  <h2 class="mb-4 dis">Welcome to </i>Mr. Burp</h2>
-                  <p class="mb-4">Mr. Burp began with a memory. Growing up in Dubai, founder Simone Bhogal would run to the local grocery every morning for freshly delivered chicken sandwiches.
-                     They were simple, delicious, and always there when hunger struck. For kids, these weren’t snacks — they were wholesome meals that kept them fueled throughout the day.</p>
-                  <p class="mb-4">Bringing that same experience to India, Mr. Burp was born. Especially for the bustling 9–5 professionals in Bangalore who often skip meals because of hectic schedules. With Mr. Burp, no one has to miss a meal.</p>
-                  <p class="mb-4">We prepare every sandwich just hours before it reaches your desk, event, café, or store. Fresh veggies, high-quality protein, and thoughtful recipes — turning a simple sandwich into a meal that’s both comforting and nourishing. 
-                  <div class="row g-4 mb-4 about-extra">
-                      <div class="col-sm-6">
-                          <div class="d-flex align-items-center px-3 about-experience">
-                              <h1 class="flex-shrink-0  mb-0">0%</h1>
-                              <div class="ps-4">
-                                  <p class="mb-0">No Junk</p>
-                                  <h6 class="text-uppercase mb-0">Only Filling Meals</h6>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-sm-6">
-                          <div class="d-flex align-items-center px-3 about-popular">
-                              <h1 class="flex-shrink-0  mb-0">100%</h1>
-                              <div class="ps-4">
-                                  <p class="mb-0">Always</p>
-                                  <h6 class="text-uppercase mb-0">Fresh & Never Frozen</h6>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="book-a-table">
-                    <div class="anim-layer"></div>
-                    <a href="#">Read More</a>
-                  </div>
-              </div>
-          </div>
-        </div>
-      </section>
 
-<section class="our-menu py-5 my-5">
+
+
+<section class="about-us">
   <div class="container">
-    <div class="row" data-aos="fade-right">
-      <div class="section-title text-center">
-        <h5>Our Menu</h5>
-        <h2 class="display-5 fw-bold">Our Food</h2>
-      </div>
-    </div>
-    <div class="row position-relative">
-      <div data-aos="fade-left" class="slider slider-indicators-wrapper justify-content-center">
-        <div class="slider-indicators">
-          <div class="indicators-icon active text-center">
-            <i class="fas fa-hamburger fa-2x"></i>
-          </div>
-          <div class="indicators-title text-center">
-            <h5>
-              Sandwiches & Burgers
-            </h5>
-          </div>
+    <div class="row gy-5 g-lg-5 align-items-center">
+
+      <!-- LEFT SIDE CONTENT (moved up) -->
+      <div class="col-lg-6 about-content" data-aos="fade-right">
+        <h5 class="section-title">About Us</h5>
+        <h2 class="mb-4 dis">Welcome to </i>Mr. Burp</h2>
+        <p class="mb-4">Mr. Burp began with a memory. Growing up in Dubai, founder Simone Bhogal would run to the local grocery every morning for freshly delivered chicken sandwiches.
+          They were simple, delicious, and always there when hunger struck. For kids, these weren’t snacks — they were wholesome meals that kept them fueled throughout the day.</p>
+        <p class="mb-4">Bringing that same experience to India, Mr. Burp was born. Especially for the bustling 9–5 professionals in Bangalore who often skip meals because of hectic schedules. With Mr. Burp, no one has to miss a meal.</p>
+        <p class="mb-4">We prepare every sandwich just hours before it reaches your desk, event, café, or store. Fresh veggies, high-quality protein, and thoughtful recipes — turning a simple sandwich into a meal that’s both comforting and nourishing. 
+        <div class="row g-4 mb-4 about-extra">
+            <div class="col-sm-6">
+                <div class="d-flex align-items-center px-3 about-experience">
+                    <h1 class="flex-shrink-0  mb-0">0%</h1>
+                    <div class="ps-4">
+                        <p class="mb-0">No Junk</p>
+                        <h6 class="text-uppercase mb-0">Only Filling Meals</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="d-flex align-items-center px-3 about-popular">
+                    <h1 class="flex-shrink-0  mb-0">100%</h1>
+                    <div class="ps-4">
+                        <p class="mb-0">Always</p>
+                        <h6 class="text-uppercase mb-0">Fresh & Never Frozen</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="book-a-table">
+          <div class="anim-layer"></div>
+          <a href="#">Read More</a>
         </div>
       </div>
-    </div>
-    <div id="our-menus" class="slider" data-aos="fade-up">
-      <div>
-        <div class="row my-5 py-3">
-          <div class="col-lg-5">
-            <div class="pb-5 pb-lg-0">
-              <img width="90%" src="./assets/images/menu-slider-dinner.png" alt="">
+
+      <!-- RIGHT SIDE IMAGES (moved down) -->
+      <div class="col-lg-6 about-img-box">
+        <div class="row g-3">
+            <div class="col-6" data-aos="fade-left">
+                <img class="img-fluid rounded w-100" src="./assets/images/about-1.jpg">
             </div>
-          </div>
-          <div class="col-lg-7">
-            <div class="item-wrapper d-flex justify-content-between">
-              <div class="item-left">
-                <h5>Chicken Sandwich</h5>
-                <p>Tender chicken, crisp veggies, light seasoning.</p>
-              </div>
+            <div class="col-6 text-right" data-aos="fade-down">
+                <img class="img-fluid rounded w-75" src="./assets/images/about-2.jpg">
             </div>
-            <div class="item-wrapper d-flex justify-content-between">
-              <div class="item-left">
-                <h5>Veg Sandwich</h5>
-                <p>Colorful veggies with balanced sauces.</p>
-              </div>
+            <div class="col-6 text-end" data-aos="fade-left">
+                <img class="img-fluid rounded w-75" src="./assets/images/about-3.jpg">
             </div>
-            <div class="item-wrapper d-flex justify-content-between">
-              <div class="item-left">
-                <h5>Mushroom Sandwich</h5>
-                <p>Rich, earthy, and hearty.</p>
-              </div>
+            <div class="col-6 text-end" data-aos="fade-up">
+                <img class="img-fluid rounded w-100" src="./assets/images/about-4.jpg">
             </div>
-            <div class="item-wrapper d-flex justify-content-between">
-              <div class="item-left">
-                <h5>Paneer Sandwich</h5>
-                <p>Protein-packed, vegetarian favorite.</p>
-              </div>
-            </div>
-            <div class="item-wrapper d-flex justify-content-between">
-              <div class="item-left">
-                <h5>Chicken Burger</h5>
-                <p>Juicy, filling, perfect on-the-go.</p>
-              </div>
-            </div>
-            <div class="item-wrapper d-flex justify-content-between">
-              <div class="item-left">
-                <h5>Veg Burger</h5>
-                <p>Light, wholesome, and tasty.</p>
-              </div>
-            </div>
-            <div class="item-wrapper d-flex justify-content-between">
-              <div class="item-left">
-                <h5>Mr. Burp Specials</h5>
-                <p>- Chicken Hummus Sandwich/Burger – creamy hummus + protein boost.</p>
-                <p>- Veg Hummus Sandwich/Burger – guilt-free indulgence.</p>
-              </div>
-            </div>
-            <div class="item-wrapper d-flex justify-content-between">
-              <div class="item-left">
-                <h5>Fresh Promise</h5>
-                <p>Made fresh daily. Delivered ready-to-eat. Filling enough to be a meal, light enough to keep you moving.</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
+
     </div>
   </div>
 </section>
 
+  <section id="nx-menu-section" class="nx-menu-section"> <!-- HERO (first-scroll background) -->
+    <div class="nx-hero" aria-hidden="false">
+      <div class="nx-hero-inner">
+        <h2 class="nx-hero-title">Delicious bites, simply served</h2>
+        <p class="nx-hero-sub">Explore our curated menu — fresh, fast, and flavourful.</p>
+      </div>
+    </div>
+    <!-- Overlapping card (round, with background image filling the circle) -->
+    <div class="nx-card">
+      <div class="nx-inner">
+        <div class="nx-row" data-aos="fade-right">
+          <div class="nx-section-title text-center">
+            <h5 class="nx-tagline1">Our Menu</h5>
+            <h2 class="nx-headline">Our Food</h2>
+          </div>
+        </div>
+        <div id="nx-our-menus" class="nx-slider" data-aos="fade-up">
+          <div class="nx-slide">
+            <div class="nx-grid">
+              <div class="nx-col nx-col-12">
+                <div class="nx-item nx-row-item">
+                  <div class="nx-item-left">
+                    <h5>Chicken Sandwich</h5>
+                    <p>Tender chicken, crisp veggies, light seasoning.</p>
+                  </div>
+                </div>
+                <div class="nx-item nx-row-item">
+                  <div class="nx-item-left">
+                    <h5>Veg Sandwich</h5>
+                    <p>Colorful veggies with balanced sauces.</p>
+                  </div>
+                </div>
+                <div class="nx-item nx-row-item">
+                  <div class="nx-item-left">
+                    <h5>Mushroom Sandwich</h5>
+                    <p>Rich, earthy, and hearty.</p>
+                  </div>
+                </div>
+                <div class="nx-item nx-row-item">
+                  <div class="nx-item-left">
+                    <h5>Paneer Sandwich</h5>
+                    <p>Protein-packed, vegetarian favorite.</p>
+                  </div>
+                </div>
+                <div class="nx-item nx-row-item">
+                  <div class="nx-item-left">
+                    <h5>Chicken Burger</h5>
+                    <p>Juicy, filling, perfect on-the-go.</p>
+                  </div>
+                </div>
+                <div class="nx-item nx-row-item">
+                  <div class="nx-item-left">
+                    <h5>Veg Burger</h5>
+                    <p>Light, wholesome, and tasty.</p>
+                  </div>
+                </div>
+                <div class="nx-item nx-row-item">
+                  <div class="nx-item-left">
+                    <h5>Mr. Burp Specials</h5>
+                    <p>- Chicken Hummus Sandwich/Burger – creamy hummus + protein boost.</p>
+                    <p>- Veg Hummus Sandwich/Burger – guilt-free indulgence.</p>
+                  </div>
+                </div>
+                <div class="nx-item nx-row-item">
+                  <div class="nx-item-left">
+                    <h5>Fresh Promise</h5>
+                    <p>Made fresh daily. Delivered ready-to-eat. Filling enough to be a meal, light enough to keep you moving.</p>
+                  </div>
+                </div>
+              </div><!-- /.nx-col-12 -->
+            </div><!-- /.nx-grid -->
+          </div><!-- /.nx-slide -->
+        </div><!-- /#nx-our-menus -->
+      </div><!-- /.nx-inner -->
+    </div><!-- /.nx-card -->
+  </section>
 
-<section class="testimonials py-5 my-5">
+  <!-- Scroll animation script (unchanged) -->
+  <script>
+    function updateHeroBg() {
+      const hero = document.querySelector('.nx-hero');
+      if (!hero) return;
+      const offset = window.scrollY * 0.4;
+      hero.style.backgroundPositionY = offset + 'px';
+    }
+    document.addEventListener('scroll', updateHeroBg, { passive: true });
+    document.addEventListener('DOMContentLoaded', updateHeroBg);
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+      updateHeroBg();
+    }
+  </script>
+
+
+<!-- Changed classes to sld- prefix for parallax section -->
+<!-- 🔹 NEW PARALLAX BACKGROUND SECTION -->
+<section class="sld-parallax-section">
+  <div class="sld-parallax-overlay"></div>
+  <div class="sld-parallax-content" data-aos="fade-up">
+    <h2>Fresh. Filling. Always with You.</h2>
+    <p>Your meals, reimagined with Mr. Burp.</p>
+  </div>
+</section>
+
+
+
+<section class="testimonials">
   <div class="container py-5">
     <div class="row" data-aos="fade-right">
       <div class="section-title text-center">
@@ -372,44 +404,6 @@
   </div>
 </section>
 
-
-<section class="experience py-5">
-  <div class="container">
-    <!-- Section Title -->
-    <div class="row" data-aos="fade-right">
-      <div class="section-title text-center">
-        <h5>The Experience</h5>
-        <h2 class="display-6 fw-bold">How Mr. Burp Fits Into Your Day</h2>
-        <p class="mt-3">We’re not just about food — we’re about making your everyday simpler, healthier, and happier.</p>
-      </div>
-    </div>
-
-    <!-- Steps -->
-    <div class="row pt-5 text-center" data-aos="fade-up">
-      <div class="col-md-4">
-        <div class="exp-box p-4 shadow-sm rounded-3">
-          <i class="fa fa-mobile-alt fa-4x text-primary mb-3"></i>
-          <h5>Order in Seconds</h5>
-          <p class="small">Pick your subscription or a single meal from our menu — it only takes a tap.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="exp-box p-4 shadow-sm rounded-3">
-          <i class="fa fa-utensils fa-4x text-success mb-3"></i>
-          <h5>Eat Fresh & Filling</h5>
-          <p class="small">Sandwiches and burgers made just hours before delivery — hearty, healthy, and satisfying.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="exp-box p-4 shadow-sm rounded-3">
-          <i class="fa fa-redo-alt fa-4x text-warning mb-3"></i>
-          <h5>Repeat Daily</h5>
-          <p class="small">Stay fueled without worry — your meals are sorted, every single day.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
       
 <!-- Reservation Section -->
 <section class="reservation">
@@ -419,7 +413,7 @@
       <div class="col-lg-6 py-5 reservation-content px-5" data-aos="fade-right">
         <div class="reservation-column py-5 px-3">
           <h2 class="text-center text-white display-6 fw-bold">Start Your Subscription</h2>
-          <p class="text-center text-white">For corporate bulk orders, call us at <span>225-88888</span></p>
+          <p class="text-center text-white">For corporate bulk orders, call us at <span>+91 98765 43210</span></p>
 
           <!-- ===== FORM START ===== -->
           <form id="reservation-form">
@@ -526,44 +520,55 @@
   });
 </script>
 
+<!-- Changed classes to nxp- prefix for parallax section -->
+<!-- 🔹 NEW PARALLAX BACKGROUND SECTION -->
+<section class="nxp-parallax-section">
+  <div class="nxp-parallax-overlay"></div>
+  <div class="nxp-parallax-content" data-aos="fade-up">
+    <h2>Fresh. Filling. Always with You.</h2>
+    <p>Your meals, reimagined with Mr. Burp.</p>
+  </div>
+</section>
 
-<section class="our-services py-5 my-5">
+
+
+<section class="sld-our-services">
   <div class="container">
     <div class="row">
-      <div class="section-title text-center" data-aos="fade-right">
+      <div class="sld-section-title text-center" data-aos="fade-right">
         <h5>Why Mr. Burp?</h5>
         <h2 class="display-6 fw-bold">What Makes Us Different</h2>
       </div>
     </div>
     <div class="row pt-5">
       <div data-aos="fade-up-right" class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center flex-column">
-        <div class="icon-box">
+        <div class="sld-icon-box icon-box">
           <i class="fas fa-carrot fa-2x"></i>
-          <span class="number">1</span>
+          <span class="sld-number number">1</span>
         </div>
         <h4>Fresh, Never Frozen</h4>
         <p class="text-center">We serve meals made with fresh ingredients, never frozen, ensuring taste and nutrition in every bite.</p>
       </div>
       <div data-aos="fade-down" class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center flex-column">
-        <div class="icon-box">
+        <div class="sld-icon-box icon-box">
           <i class="fas fa-hamburger fa-2x"></i>
-          <span class="number">2</span>
+          <span class="sld-number number">2</span>
         </div>
         <h4>Filling Meals</h4>
         <p class="text-center">Not just snacks — hearty, wholesome meals that actually satisfy your hunger.</p>
       </div>
       <div data-aos="fade-up" class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center flex-column">
-        <div class="icon-box">
+        <div class="sld-icon-box icon-box">
           <i class="fas fa-apple-alt fa-2x"></i>
-          <span class="number">3</span>
+          <span class="sld-number number">3</span>
         </div>
         <h4>Balanced Nutrition</h4>
         <p class="text-center">A healthy mix of proteins and veggies, giving you the right balance of nutrition in every meal.</p>
       </div>
       <div data-aos="fade-up-left" class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center flex-column">
-        <div class="icon-box">
+        <div class="sld-icon-box icon-box">
           <i class="fas fa-store fa-2x"></i>
-          <span class="number">4</span>
+          <span class="sld-number number">4</span>
         </div>
         <h4>Accessible Everywhere</h4>
         <p class="text-center">Available across corporates, events, and stores — plus subscription options so you never worry about food again.</p>
@@ -573,178 +578,46 @@
 </section>
 
 
-      <section class="our-gallery pt-5">
-        <div class="container-fluid pt-5">
-          <div class="row">
-            <div class="section-title text-center" data-aos="fade-right">
-              <h5>Our Gallery</h5>
-              <h2 class="text-white display-6 fw-bold">Fooday Hot Dishes</h2>
-            </div>
+<section class="dark-gallery-section pt-5">
+  <div class="dark-gallery-container container-fluid pt-5">
+    <div class="dark-gallery-row row">
+      <div class="dark-gallery-title text-center" data-aos="fade-right">
+        <h5 class="dark-gallery-subtitle">Our Gallery</h5>
+        <h2 class="dark-gallery-heading text-white display-6 fw-bold">Fooday Hot Dishes</h2>
+      </div>
+    </div>
+    <div class="dark-gallery-images row pt-5">
+      <div class="dark-gallery-col col-md-3 p-0">
+        <div data-aos="fade-down-right" class="dark-gallery-image dark-gallery-img-one"></div>
+      </div>
+      <div class="dark-gallery-col col-md-6 p-0">
+        <div class="dark-gallery-inner row m-0">
+          <div class="dark-gallery-col col-md-8 p-0">
+            <div data-aos="fade-down" class="dark-gallery-img-two"></div>
           </div>
-          <div class="row pt-5">
-            <div class="col-md-3 p-0">
-              <div data-aos="fade-down-right" class="gallery-image gallery-image-one"></div>
-            </div>
-            <div class="col-md-6 p-0">
-              <div class="row m-0">
-                <div class="col-md-8 p-0">
-                  <div data-aos="fade-down" class="gallery-image-two"></div>
-                </div>
-                <div class="col-md-4 p-0">
-                  <div data-aos="fade-down" class="gallery-image-three"></div>
-                </div>
-              </div>
-              <div class="row m-0">
-                <div class="col-md-4 p-0">
-                  <div data-aos="fade-up" class="gallery-image-five"></div>
-                </div>
-                <div class="col-md-8 p-0">
-                  <div data-aos="fade-up" class="gallery-image-six"></div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 p-0">
-              <div data-aos="fade-up-left" class="gallery-image gallery-image-four"></div>
-            </div>
+          <div class="dark-gallery-col col-md-4 p-0">
+            <div data-aos="fade-down" class="dark-gallery-img-three"></div>
           </div>
         </div>
-      </section>
-
-      <section class="our-blog pt-5 my-5">
-        <div class="container">
-          <div class="row">
-            <div class="section-title text-center" data-aos="fade-right">
-              <h5>Latest</h5>
-              <h2 class="display-6 fw-bold">Stories from the Mr. Burp Kitchen</h2>
-            </div>
+        <div class="dark-gallery-inner row m-0">
+          <div class="dark-gallery-col col-md-4 p-0">
+            <div data-aos="fade-up" class="dark-gallery-img-five"></div>
           </div>
-          <div class="row pt-5">
-            <div class="col-lg-4 mb-5 mb-lg-0">
-              <div class="card" data-aos="fade-up-right">
-                <div class="blog-info d-flex py-3">
-                  <div class="blog-view px-3">
-                    <i class="fas fa-eye"></i>
-                    <span>120</span>
-                  </div>
-                  <div class="blog-comment px-3">
-                    <i class="fas fa-comment"></i>
-                    <span>12</span>
-                  </div>
-                  <div class="blog-author">
-                    <p class="mb-0 ps-3">Post By Mr. Burp</p>
-                  </div>
-                </div>
-                <div class="blog-featured-img">
-                  <img class="w-100" src="./assets/images/blog-grid-1.jpg" alt="Meals That Move With You">
-                </div>
-                <div class="blog-content px-4 pt-5 pb-4 position-relative">
-                  <div class="blog-date">
-                    <span class="day">08</span>
-                    <span class="month">Sep</span>
-                  </div>
-                  <h3 class="blog-title">
-                    <a href="javascript:void(0)">Meals That Move With You — Fresh, Filling, Healthy</a>
-                  </h3>
-                  <p class="blog-description">
-                    Mr. Burp isn’t junk food. Sandwiches, burgers and rolls made fresh every day with wholesome ingredients — ready to fuel your busy day, anytime, anywhere.
-                  </p>
-                  <div class="blog-readmore text-end">
-                    <a class="text-black text-decoration-none" href="javascript:void(0)">
-                        Read More 
-                        <i class="fa fa-angle-double-right">
-                      </i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 mb-5 mb-lg-0">
-              <div class="card" data-aos="fade-down">
-                <div class="blog-info d-flex py-3">
-                  <div class="blog-view px-3">
-                    <i class="fas fa-eye"></i>
-                    <span>95</span>
-                  </div>
-                  <div class="blog-comment px-3">
-                    <i class="fas fa-comment"></i>
-                    <span>5</span>
-                  </div>
-                  <div class="blog-author">
-                    <p class="mb-0 ps-3">Post By Mr. Burp Team</p>
-                  </div>
-                </div>
-                <div class="blog-featured-img">
-                  <img class="w-100" src="./assets/images/blog-grid-1-1.jpg" alt="Subscription Meals">
-                </div>
-                <div class="blog-content px-4 pt-5 pb-4 position-relative">
-                  <div class="blog-date">
-                    <span class="day">02</span>
-                    <span class="month">Sep</span>
-                  </div>
-                  <h3 class="blog-title">
-                    <a href="javascript:void(0)">Never Miss a Meal: Subscriptions Made Simple</a>
-                  </h3>
-                  <p class="blog-description">
-                    Hassle-free subscription plans deliver fresh, ready-to-eat meals to your desk every day — ideal for busy 9–5 professionals and teams.
-                  </p>
-                  <div class="blog-readmore text-end">
-                    <a class="text-black text-decoration-none" href="javascript:void(0)">
-                        Read More 
-                        <i class="fa fa-angle-double-right">
-                      </i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 mb-5 mb-lg-0">
-              <div class="card" data-aos="fade-up-left">
-                <div class="blog-info d-flex py-3">
-                  <div class="blog-view px-3">
-                    <i class="fas fa-eye"></i>
-                    <span>70</span>
-                  </div>
-                  <div class="blog-comment px-3">
-                    <i class="fas fa-comment"></i>
-                    <span>3</span>
-                  </div>
-                  <div class="blog-author">
-                    <p class="mb-0 ps-3">Post By Partnerships</p>
-                  </div>
-                </div>
-                <div class="blog-featured-img">
-                  <img class="w-100" src="./assets/images/blog-grid-1-2.jpg" alt="Corporate Orders & Partnerships">
-                </div>
-                <div class="blog-content px-4 pt-5 pb-4 position-relative">
-                  <div class="blog-date">
-                    <span class="day">28</span>
-                    <span class="month">Aug</span>
-                  </div>
-                  <h3 class="blog-title">
-                    <a href="javascript:void(0)">Corporate Orders & Store Partnerships</a>
-                  </h3>
-                  <p class="blog-description">
-                    Bulk deliveries for offices and events, plus store partnerships to stock Mr. Burp in cafés and shops — fresh meals where people need them.
-                  </p>
-                  <div class="blog-readmore text-end">
-                    <a class="text-black text-decoration-none" href="javascript:void(0)">
-                        Read More 
-                        <i class="fa fa-angle-double-right">
-                      </i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-          <div class="row pt-5">
-          
+          <div class="dark-gallery-col col-md-8 p-0">
+            <div data-aos="fade-up" class="dark-gallery-img-six"></div>
           </div>
         </div>
-      </section>
+      </div>
+      <div class="dark-gallery-col col-md-3 p-0">
+        <div data-aos="fade-up-left" class="dark-gallery-image dark-gallery-img-four"></div>
+      </div>
+    </div>
+  </div>
+</section>
 
-<section class="subscribe-us pb-5 mb-5">
+
+
+<section class="subscribe-us py-5 mb-5">
   <img class="d-none d-lg-block" src="./assets/images/subscribe-us.png" alt="" data-aos="fade-down-left">
   <div class="container">
     <div class="row">
@@ -784,225 +657,127 @@ window.addEventListener("load", () => {
 
   const img = document.querySelector(".banner-img img");
 
-  // safety: if image not found, stop and warn
   if (!img) {
     console.warn("No .banner-img img found on the page. Script aborted.");
     return;
   }
 
-  // Feature detection
   const isTouch = ('ontouchstart' in window) || (navigator.maxTouchPoints && navigator.maxTouchPoints > 0);
-  const isMobile = window.innerWidth <= 768 || isTouch;
+  let isMobile = window.innerWidth <= 768 || isTouch;
 
-  // Create the small cursor-follow image (uses the same src as banner)
+  // Create cursor follower image
   const cursorImg = document.createElement("img");
   cursorImg.src = img.src;
   cursorImg.alt = img.alt || "";
   cursorImg.className = "banner-cursor-img";
 
-  // Use transform-based movement (GSAP x/y). Set left/top to 0 so x/y maps to viewport coords reliably.
   Object.assign(cursorImg.style, {
     position: "fixed",
     left: "0px",
     top: "0px",
-    width: "40px",                       // small cursor size (adjust if needed)
+    width: "40px",
     height: "auto",
-    transform: "translate(-50%, -50%) translate3d(0px,0px,0px)", // centered + ready for GSAP x/y
+    transform: "translate(-50%, -50%) translate3d(0px,0px,0px)",
     pointerEvents: "none",
     zIndex: "9999",
-    opacity: "0",                        // start hidden until pointer/touch
+    opacity: "0",
     willChange: "transform, opacity",
     transition: "opacity 0.12s linear"
   });
 
-  // append follower to body
   document.body.appendChild(cursorImg);
-
-  // put it offscreen initially using GSAP transforms
   gsap.set(cursorImg, { x: -200, y: -200 });
 
-  // hide native cursor on non-touch so the image looks like the cursor
-  if (!isTouch) {
-    document.documentElement.style.cursor = "none";
-  }
+  if (!isTouch) document.documentElement.style.cursor = "none";
 
-  // helper: move follower using GSAP transform x/y (robust on mobile)
   const moveCursorImg = (x, y, instant = false) => {
-    gsap.to(cursorImg, {
-      x: x,
-      y: y,
-      duration: instant ? 0 : 0.06,
-      ease: "power2.out"
-    });
+    gsap.to(cursorImg, { x, y, duration: instant ? 0 : 0.06, ease: "power2.out" });
   };
 
-  const showCursorImg = () => {
-    if (cursorImg.style.opacity !== "0.95") gsap.to(cursorImg, { opacity: 0.95, duration: 0.12 });
-  };
-  const hideCursorImg = () => {
-    if (cursorImg.style.opacity !== "0") gsap.to(cursorImg, { opacity: 0, duration: 0.12 });
-  };
+  const showCursorImg = () => { if (cursorImg.style.opacity !== "0.95") gsap.to(cursorImg, { opacity: 0.95, duration: 0.12 }); };
+  const hideCursorImg = () => { if (cursorImg.style.opacity !== "0") gsap.to(cursorImg, { opacity: 0, duration: 0.12 }); };
 
-  // Unified pointer + touch handling (use pointer events primarily, fall back to touch)
-  // pointermove will cover mouse, pen and many touch-capable browsers; still add touch listeners for compatibility.
-  const pointerHandler = (clientX, clientY, instant = false) => {
-    moveCursorImg(clientX, clientY, instant);
-    showCursorImg();
-  };
-
-  // pointer events (covers mouse + many touch-enabled browsers)
   if (window.PointerEvent) {
-    document.addEventListener("pointermove", (e) => {
-      // Use client coords (viewport). On touch, pointermove should also fire in modern browsers.
-      pointerHandler(e.clientX, e.clientY);
-    }, { passive: true });
-
-    // Hide when leaving window/tab
-    window.addEventListener("pointerout", (e) => {
-      if (!e.relatedTarget) hideCursorImg();
-    });
-
+    document.addEventListener("pointermove", (e) => { moveCursorImg(e.clientX, e.clientY); showCursorImg(); }, { passive: true });
+    window.addEventListener("pointerout", (e) => { if (!e.relatedTarget) hideCursorImg(); });
   } else {
-    // Fallback: mouse
-    document.addEventListener("mousemove", (e) => {
-      pointerHandler(e.clientX, e.clientY);
-    }, { passive: true });
+    document.addEventListener("mousemove", (e) => { moveCursorImg(e.clientX, e.clientY); showCursorImg(); }, { passive: true });
   }
 
-  // Touch fallback for older browsers that don't emit pointermove for touches
-  document.addEventListener("touchstart", (e) => {
-    if (e.touches && e.touches.length > 0) {
-      const t = e.touches[0];
-      pointerHandler(t.clientX, t.clientY, true);
-    }
-  }, { passive: true });
-
-  document.addEventListener("touchmove", (e) => {
-    if (e.touches && e.touches.length > 0) {
-      const t = e.touches[0];
-      pointerHandler(t.clientX, t.clientY);
-    }
-  }, { passive: true });
-
-  // Optional: hide on touchend (comment out if you want it to remain visible after touch)
-  document.addEventListener("touchend", () => {
-    // keep visible so user always sees the small image; uncomment to hide:
-    // hideCursorImg();
-  }, { passive: true });
-
-  // When window/tab loses focus hide the follower
+  document.addEventListener("touchstart", (e) => { if (e.touches.length > 0) moveCursorImg(e.touches[0].clientX, e.touches[0].clientY, true); }, { passive: true });
+  document.addEventListener("touchmove", (e) => { if (e.touches.length > 0) moveCursorImg(e.touches[0].clientX, e.touches[0].clientY); }, { passive: true });
+  document.addEventListener("touchend", () => {}, { passive: true });
   window.addEventListener("blur", hideCursorImg);
 
-  // -- ORIGINAL SCROLL ANIMATIONS: only run on desktop (non-mobile) --
   if (!isMobile) {
-    // Initial banner image setup (desktop)
+    // 🔹 Initial setup for banner image
     gsap.set(img, { position: "fixed", top: "100px", right: "50px", zIndex: 999, width: "500px" });
 
-    // Animation timeline across sections
-    const sections = [
-      { trigger: ".banner",    y: 0,    rotation: 0,    scale: 1,    opacity: 1 },
-      { trigger: ".services",  y: 150,  rotation: 15,   scale: 1.5,    opacity: 0.7 },
-      { trigger: ".about-us",  y: -50,  rotation: -15,  scale: 0.5,  opacity: 1 },
-      { trigger: ".our-menu",  y: 200,  rotation: 30,   scale: 0.2,  opacity: 0.8 },
-      { trigger: ".testimonials", y: -150, rotation: -30, scale: 1,   opacity: 1 },
-      { trigger: ".experience",   y: 80,  rotation: 45,  scale: 0.8,  opacity: 0.9 },
-      { trigger: ".reservation",  y: 200, rotation: 0,   scale: 1.1,  opacity: 1 },
-      { trigger: ".our-services", y: -100, rotation: 25, scale: 1.2,  opacity: 0.85 },
-      { trigger: ".our-gallery",  y: 150, rotation: -25, scale: 1,   opacity: 1 },
-      { trigger: ".our-blog",     y: 0,   rotation: 10,  scale: 0.9,  opacity: 0.95 },
-      { trigger: ".subscribe-us", y: -200, rotation: 0,  scale: 1.4,  opacity: 1 }
-    ];
-
-    // Store all triggers so they can be disabled/enabled
-    let triggers = [];
-
-    // Animate image across sections
-    sections.forEach((s) => {
-      let tween = gsap.to(img, {
-        scrollTrigger: {
-          trigger: s.trigger,
-          start: "top center",
-          end: "bottom center",
-          scrub: true
-        },
-        y: s.y,
-        rotation: s.rotation,
-        scale: s.scale,
-        opacity: s.opacity,
-        ease: "power2.out"
-      });
-      if (tween && tween.scrollTrigger) triggers.push(tween.scrollTrigger);
-    });
-
-    // Stick image to navbar after about-us section
-    ScrollTrigger.create({
-      trigger: ".about-us",
-      start: "bottom top",
-      onEnter: () => {
-        // Pause section animations
-        triggers.forEach(st => st.disable());
-
-        gsap.to(img, {
-          duration: 1,
-          width: "50px",
-          top: "10px",
-          left: "30px",
-          right: "auto",
-          rotation: 0,
-          scale: 1,
-          ease: "power2.inOut",
-          onComplete: () => {
-            gsap.set(img, { position: "fixed", zIndex: 999 });
-
-            // Floating animation (only once)
-            if (!img.hasFloating) {
-              img.hasFloating = true;
-              gsap.to(img, {
-                y: "-=5",
-                duration: 1.5,
-                repeat: -1,
-                yoyo: true,
-                ease: "sine.inOut"
-              });
+    // 🔹 Animate only inside the banner section
+    gsap.to(img, {
+      scrollTrigger: {
+        trigger: ".banner",
+        start: "top top",
+        end: "bottom top", // ends when banner scrolls out
+        scrub: true,
+        pin: false,
+        onLeave: () => {
+          // Move image to logo area when banner ends
+          gsap.to(img, {
+            duration: 1,
+            width: "50px",
+            top: "25px",
+            left: "35px",
+            right: "auto",
+            rotation: 0,
+            scale: 1,
+            ease: "power2.inOut",
+            onComplete: () => {
+              gsap.set(img, { position: "fixed", zIndex: 999 });
+              if (!img.hasFloating) {
+                img.hasFloating = true;
+                gsap.to(img, { y: "-=5", duration: 1.5, repeat: -1, yoyo: true, ease: "sine.inOut" });
+              }
             }
-          }
-        });
+          });
+        },
+        onEnterBack: () => {
+          // Restore big banner image when scrolling back up
+          gsap.to(img, {
+            duration: 1,
+            width: "500px",
+            top: "100px",
+            right: "50px",
+            left: "auto",
+            scale: 1,
+            rotation: 0, // 🔹 reset rotation when re-entering
+            ease: "power2.inOut"
+          });
+        }
       },
-      onLeaveBack: () => {
-        // Resume section animations when scrolling back
-        triggers.forEach(st => st.enable());
-
-        gsap.to(img, {
-          duration: 1,
-          width: "500px",
-          top: "100px",
-          right: "50px",
-          left: "auto",
-          scale: 1,
-          rotation: 0,
-          ease: "power2.inOut"
-        });
-      }
+      y: 0,
+      rotation: 0, // 🔹 No continuous rotation, it stops at banner bottom
+      scale: 1,
+      opacity: 1
     });
+
   } else {
-    // Mobile: hide the large scroll-animated banner-img (we keep the small cursor-follow image active)
-    img.style.display = "none";
+    img.style.display = "none"; // hide on mobile
   }
 
-  // Optional: handle window resize so mobile/desktop changes are respected without a full page reload
+  // Handle resize
   let resizeTimeout = null;
   window.addEventListener("resize", () => {
     clearTimeout(resizeTimeout);
     resizeTimeout = setTimeout(() => {
       const nowMobile = window.innerWidth <= 768 || ('ontouchstart' in window);
-      if (nowMobile !== isMobile) {
-        // reload to re-initialize cleanly (prevents duplicate ScrollTriggers)
-        window.location.reload();
-      }
+      if (nowMobile !== isMobile) window.location.reload();
     }, 200);
   });
 });
 </script>
+
+
     </main>
     
 
@@ -1019,8 +794,7 @@ window.addEventListener("load", () => {
           <div class="col-lg-6 px-0">
             <div class="logo" data-aos="fade-down-right">
               <a href="./index.html">
-                <i class="fa fa-utensils me-3"></i>
-                <h1 class="mb-0">Mr. Burp</h1>
+                <img src="./assets/images/logo.png" alt="Mr. Burp Logo" class="site-logo1">
               </a>
             </div>
           </div>
