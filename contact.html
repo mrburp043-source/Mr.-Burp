@@ -2,8 +2,101 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Mr. Burp</title>
+    <title>Mr. Burp - Best Food in Bangalore | Contact Us</title>
+
+    <!-- Primary SEO -->
+    <meta name="description" content="Mr. Burp — Best fast food & local food in Bangalore (Bengaluru). Burgers, biryani, snacks & more. Order online or visit us. Contact Mr. Burp for delivery, catering and dine-in." />
+    <meta name="keywords" content="Mr Burp, Bangalore food, Bengaluru restaurants, food delivery Bangalore, burgers Bangalore, biryani Bangalore, best food in Bangalore, Mr Burp contact" />
+    <meta name="robots" content="index, follow, max-snippet:200, max-image-preview:large" />
+    <link rel="canonical" href="https://www.mrburp.in/contact" />
+
+    <!-- Geo + browser -->
+    <meta name="geo.placename" content="Bangalore, Karnataka, India" />
+    <meta name="geo.position" content="12.9716;77.5946" />
+    <meta name="ICBM" content="12.9716, 77.5946" />
+    <meta name="author" content="Mr. Burp" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Open Graph (Facebook / WhatsApp preview) -->
+    <meta property="og:type" content="restaurant" />
+    <meta property="og:title" content="Mr. Burp - Best Food in Bangalore" />
+    <meta property="og:description" content="Enjoy tasty burgers, biryani and snacks from Mr. Burp — serving Bangalore (Bengaluru). Order online or contact us for catering and delivery." />
+    <meta property="og:image" content="https://www.mrburp.in/assets/images/logo.png" />
+    <meta property="og:image:alt" content="Mr. Burp logo" />
+    <meta property="og:url" content="https://www.mrburp.in/contact" />
+    <meta property="og:site_name" content="Mr. Burp" />
+    <meta property="og:locale" content="en_IN" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@MrBurp" />
+    <meta name="twitter:title" content="Mr. Burp - Best Food in Bangalore" />
+    <meta name="twitter:description" content="Tasty burgers, biryani & quick bites — Mr. Burp in Bangalore. Order now or contact us." />
+    <meta name="twitter:image" content="https://www.mrburp.in/assets/images/logo.png" />
+
+    <!-- Structured data: Restaurant / LocalBusiness (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Mr. Burp",
+      "image": "https://www.mrburp.in/assets/images/logo.png",
+      "@id": "https://www.mrburp.in/",
+      "url": "https://www.mrburp.in/",
+      "telephone": "+91-XXXXXXXXXX",
+      "priceRange": "₹",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Replace with your street address",
+        "addressLocality": "Bangalore",
+        "addressRegion": "Karnataka",
+        "postalCode": "5600XX",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 12.9716,
+        "longitude": 77.5946
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"
+          ],
+          "opens": "09:00",
+          "closes": "23:00"
+        }
+      ],
+      "servesCuisine": ["Indian","Fast Food"],
+      "menu": "https://www.mrburp.in/menu",
+      "acceptsReservations": true,
+      "sameAs": [
+        "https://www.facebook.com/yourpage",
+        "https://www.instagram.com/yourprofile",
+        "https://twitter.com/yourprofile"
+      ],
+      "areaServed": {
+        "@type": "City",
+        "name": "Bengaluru"
+      }
+    }
+    </script>
+
+        <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/images/logo.png" />
+    <!-- Optional for older browsers -->
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="./assets/images/logo.png" />
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -94,109 +187,119 @@
     </div>
   </section>
 
-  <section class="contact-us my-5 py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8">
-          <div class="form">
-            <h2 class="mb-5 position-relative display-6 fw-bold" data-aos="fade-right">Get In Touch</h2>
-            <form action="" data-aos="fade-right">
-              <div class="input-group">
-                <div class="icon-wrapper d-flex align-items-center position-relative">
-                  <i class="fa fa-user py-2 px-3"></i>
-                </div>
-                <input class="form-control bg-transparent border-0 px-3" type="text" placeholder="Username">
+<!-- Contact Section -->
+<section class="nx-contact-section my-5 py-5">
+  <div class="nx-container">
+    <div class="nx-row">
+      <!-- Form Area -->
+      <div class="nx-col-8">
+        <div class="nx-form-box">
+          <h2 class="nx-heading" data-aos="fade-right">Get In Touch</h2>
+          <form id="contactForm" data-aos="fade-right">
+            <div class="nx-input-group">
+              <div class="nx-icon-wrap">
+                <i class="fa fa-user"></i>
               </div>
-              <div class="input-group">
-                <div class="icon-wrapper d-flex align-items-center position-relative">
-                  <i class="fa fa-envelope py-2 px-3"></i>
-                </div>
-                <input class="form-control bg-transparent border-0 px-3" type="email" placeholder="Email">
+              <input type="text" name="user_name" class="nx-input" placeholder="Username" required />
+            </div>
+            <div class="nx-input-group">
+              <div class="nx-icon-wrap">
+                <i class="fa fa-envelope"></i>
               </div>
-              <div class="input-group">
-                <div class="icon-wrapper d-flex align-items-center position-relative">
-                  <i class="fa fa-phone py-2 px-3"></i>
-                </div>
-                <input class="form-control bg-transparent border-0 px-3" type="text" placeholder="Phone">
+              <input type="email" name="user_email" class="nx-input" placeholder="Email" required />
+            </div>
+            <div class="nx-input-group">
+              <div class="nx-icon-wrap">
+                <i class="fa fa-phone"></i>
               </div>
-              <div class="input-group">
-                <textarea class="form-control bg-transparent border-0 px-3" placeholder="Message"></textarea>
-              </div>
-              <div class="book-a-table contact-button">
-                <div class="anim-layer"></div>
-                <a href="#">Send</a>
-              </div>
-            </form>
-          </div>
+              <input type="text" name="user_phone" class="nx-input" placeholder="Phone" required />
+            </div>
+            <div class="nx-input-group">
+              <textarea name="message" class="nx-textarea" placeholder="Message" required></textarea>
+            </div>
+            <div class="contact-btn">
+              <button type="submit" class="nx-submit-btn">Send</button>
+            </div>
+          </form>
         </div>
-        <div class="col-lg-4">
-          <div class="contact-info">
-            <h2 class="mb-5 mt-5 mt-lg-0 position-relative display-6 fw-bold" data-aos="fade-right">Contact Info</h2>
-            <div class="d-flex flex-column px-0 justify-content-between" data-aos="fade-left">
-              <div class="contact-info-box d-flex align-items-center pe-2 py-3">
-                <div class="contact-icon-box">
-                  <i class="fa-solid fa-location-dot border-bottom pb-2"></i>
-                </div>
-                <div class="ps-3">
-                  <p class="mb-0">
-                    <b>Restaurent 1</b> <br>
-                    157 White Oak Drive Kansas City
-                  </p>
-                </div>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="nx-col-4">
+        <div class="nx-info-box">
+          <h2 class="nx-heading" data-aos="fade-right">Contact Info</h2>
+          <div class="nx-info-list" data-aos="fade-left">
+            <div class="nx-info-item">
+              <i class="fa-solid fa-location-dot nx-info-icon"></i>
+              <div class="nx-info-text">
+                <p><b>Restaurant</b><br>Bangalore, Karnataka, India</p>
               </div>
-              <div class="contact-info-box d-flex align-items-center pe-2 py-3">
-                <div class="contact-icon-box">
-                  <i class="fa-solid fa-location-dot border-bottom pb-2"></i>
-                </div>
-                <div class="ps-3">
-                  <p class="mb-0">
-                    <b>Restaurent 2</b> <br>
-                    158 White Oak Drive Kansas City
-                  </p>
-                </div>
+            </div>
+            <div class="nx-info-item">
+              <i class="fa-solid fa-phone nx-info-icon"></i>
+              <div class="nx-info-text">
+                <p><b>Phone Number</b><br>+91 98765 43210</p>
               </div>
-              <div class="contact-info-box d-flex align-items-center pe-2 py-3">
-                <div class="contact-icon-box">
-                  <i class="fa-solid fa-phone border-bottom pb-2"></i>
-                </div>
-                <div class="ps-3">
-                  <p class="mb-0">
-                    <b>Phone Number</b> <br>
-                    (012) 978 645 312
-                  </p>
-                </div>
-              </div>
-              <div class="contact-info-box d-flex align-items-center pe-2 py-3">
-                <div class="contact-icon-box">
-                  <i class="fa-solid fa-envelope border-bottom pb-2"></i>
-                </div>
-                <div class="ps-3">
-                  <p class="mb-0">
-                    <b>Mail</b> <br>
-                    hello@fooday.com <br>
-                    contact@fooday.com
-                  </p>
-                </div>
+            </div>
+            <div class="nx-info-item">
+              <i class="fa-solid fa-envelope nx-info-icon"></i>
+              <div class="nx-info-text">
+                <p><b>Mail</b><br>hello@mrburp.com</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="map pb-0 pb-lg-5">
-    <div class="container pb-5" data-aos="fade-right">
-      <div class="row">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1
-d7236.375239953878!2d67.08098637770993!3d24.92567760000002!2m3!1f0!2f0!3f0!3m2!1
-i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f60a0781265%3A0x2befaba123014ab1!2sSMIT%20Gu
-lshan%20Campus!5e0!3m2!1sen!2s!4v1724775738916!5m2!1sen!2s" width="100%" 
-            height="450" style="border:0;" allowfullscreen="" loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
+<!-- EmailJS Integration -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+  (function () {
+    emailjs.init("L74HwXMHm7bAnlOIT"); // Replace with your EmailJS Public Key
+  })();
+
+  document.getElementById("contactForm").addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    const now = new Date().toLocaleString();
+
+    emailjs.send("service_t7mtg5o", "template_gfp3pvj", {
+      user_name: this.user_name.value,
+      user_email: this.user_email.value,
+      user_phone: this.user_phone.value,
+      message: this.message.value,
+      time: now
+    })
+      .then(() => {
+        alert("✅ Message sent successfully!");
+        this.reset();
+      })
+      .catch((error) => {
+        alert("❌ Failed to send message. Error: " + JSON.stringify(error));
+      });
+  });
+</script>
+
+
+<section class="map pb-0 pb-lg-5">
+  <div class="container pb-5" data-aos="fade-right">
+    <div class="row">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.871665091464!2d77.594566!3d12.9715987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670e1a3c1f1%3A0x7d0b0c57b1a5!2sBangalore%2C%20Karnataka%2C%20India!5e0!3m2!1sen!2sin!4v1726500000000!5m2!1sen!2sin" 
+        width="100%" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <section class="subscribe-us pb-5 mb-5">
     <img class="d-none d-lg-block" src="./assets/images/subscribe-us.png" alt="" data-aos="fade-down-right">
@@ -263,7 +366,7 @@ lshan%20Campus!5e0!3m2!1sen!2s!4v1724775738916!5m2!1sen!2s" width="100%"
               <i class="fa-solid fa-location-dot text-white fa-2x border-bottom pb-2"></i>
               <div class="ps-3">
                 <p class="mb-0">
-                  Bangalore, India
+                  Bangalore, Karnataka, India
                 </p>
               </div>
             </div>
@@ -271,7 +374,6 @@ lshan%20Campus!5e0!3m2!1sen!2s!4v1724775738916!5m2!1sen!2s" width="100%"
               <i class="fa-solid fa-mobile text-white fa-2x border-bottom pb-2"></i>
               <div class="ps-3">
                 <p class="mb-0">
-                  +91 98765 43210 <br>
                   +91 98765 43210
                 </p>
               </div>
@@ -280,8 +382,7 @@ lshan%20Campus!5e0!3m2!1sen!2s!4v1724775738916!5m2!1sen!2s" width="100%"
               <i class="fa-solid fa-envelope text-white fa-2x border-bottom pb-2"></i>
               <div class="ps-3">
                 <p class="mb-0">
-                  hello@mrburp.com <br>
-                  support@mrburp.com
+                  hello@mrburp.in
                 </p>
               </div>
             </div>

@@ -2,8 +2,100 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Mr. Burp</title>
+    <title>Mr. Burp - Best Food in Bangalore | Home</title>
+
+    <!-- Primary SEO -->
+    <meta name="description" content="Mr. Burp — Best fast food & local food in Bangalore (Bengaluru). Burgers, biryani, snacks & more. Order online or visit us. Experience the best food in Bangalore with Mr. Burp." />
+    <meta name="keywords" content="Mr Burp, Bangalore food, Bengaluru restaurants, food delivery Bangalore, burgers Bangalore, biryani Bangalore, best food in Bangalore" />
+    <meta name="robots" content="index, follow, max-snippet:200, max-image-preview:large" />
+    <link rel="canonical" href="https://www.mrburp.in/" />
+
+    <!-- Geo + browser -->
+    <meta name="geo.placename" content="Bangalore, Karnataka, India" />
+    <meta name="geo.position" content="12.9716;77.5946" />
+    <meta name="ICBM" content="12.9716, 77.5946" />
+    <meta name="author" content="Mr. Burp" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Open Graph (Facebook / WhatsApp preview) -->
+    <meta property="og:type" content="restaurant" />
+    <meta property="og:title" content="Mr. Burp - Best Food in Bangalore" />
+    <meta property="og:description" content="Enjoy tasty burgers, biryani and snacks from Mr. Burp — serving Bangalore (Bengaluru). Order online or visit us today!" />
+    <meta property="og:image" content="https://www.mrburp.in/assets/images/logo.png" />
+    <meta property="og:image:alt" content="Mr. Burp logo" />
+    <meta property="og:url" content="https://www.mrburp.in/" />
+    <meta property="og:site_name" content="Mr. Burp" />
+    <meta property="og:locale" content="en_IN" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@MrBurp" />
+    <meta name="twitter:title" content="Mr. Burp - Best Food in Bangalore" />
+    <meta name="twitter:description" content="Tasty burgers, biryani & quick bites — Mr. Burp in Bangalore. Order now or visit us!" />
+    <meta name="twitter:image" content="https://www.mrburp.in/assets/images/logo.png" />
+
+    <!-- Structured data: Restaurant / LocalBusiness (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Mr. Burp",
+      "image": "https://www.mrburp.in/assets/images/logo.png",
+      "@id": "https://www.mrburp.in/",
+      "url": "https://www.mrburp.in/",
+      "telephone": "+91-XXXXXXXXXX",
+      "priceRange": "₹",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Replace with your street address",
+        "addressLocality": "Bangalore",
+        "addressRegion": "Karnataka",
+        "postalCode": "5600XX",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 12.9716,
+        "longitude": 77.5946
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"
+          ],
+          "opens": "09:00",
+          "closes": "23:00"
+        }
+      ],
+      "servesCuisine": ["Indian","Fast Food"],
+      "menu": "https://www.mrburp.in/menu",
+      "acceptsReservations": true,
+      "sameAs": [
+        "https://www.facebook.com/yourpage",
+        "https://www.instagram.com/yourprofile",
+        "https://twitter.com/yourprofile"
+      ],
+      "areaServed": {
+        "@type": "City",
+        "name": "Bengaluru"
+      }
+    }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/images/logo.png" />
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="./assets/images/logo.png" />
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -26,14 +118,13 @@
       }
     </style>
     <!-- Swiper CSS -->
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
 
-<!-- Swiper JS -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   </head>
   <body>
 
@@ -65,7 +156,6 @@
     <div class="mobile-nav-logo">
       <div class="logo">
         <a href="./index.html">
-          <i class="fa fa-utensils me-3"></i>
           <img src="./assets/images/logo.png" alt="Mr. Burp Logo" class="site-logo-mobile">
         </a>
       </div>
@@ -78,27 +168,27 @@
 
 
 <main>
-<section class="banner">
-  <div class="container h-100">
-    <div class="row h-100">
-      <div class="col-md-6 banner-content pe-5 d-flex flex-column justify-content-center" data-aos="fade-right" data-aos-delay="3000">
-        <h1 class="display-2">Meals That Move With You –  <br> Fresh. Filling. Healthy.</h1>
+<section class="hero-section">
+  <div class="hero-overlay"></div>
+  <div class="hero-container h-100">
+    <div class="hero-row h-100 align-items-center justify-content-center">
+      <div class="hero-content text-center" data-aos="fade-up" data-aos-delay="300">
+        <h1>Meals That Move With You – <br> Fresh. Filling. Healthy.</h1>
         <p>
-          Mr. Burp isn’t junk food. It’s food that fuels you. Sandwiches, burgers, and rolls made fresh every single day,
-          with wholesome ingredients that keep you going anytime, anywhere. At your desk, on the way to office, at midnight cravings — 
-          Mr. Burp is always here to make sure you never miss a meal again
+          Mr. Burp isn’t junk food. It’s food that fuels you. Sandwiches, burgers, and rolls made 
+          fresh every single day, with wholesome ingredients that keep you going anytime, anywhere. 
+          At your desk, on the way to office, at midnight cravings — Mr. Burp is always here to make 
+          sure you never miss a meal again.
         </p>
-        <div class="book-a-table">
-          <div class="anim-layer"></div>
-          <a href="#">Book a table</a>
+        <div class="hero-btn">
+          <div class="hero-btn-layer"></div>
+          <a href="contact.html">Book a table</a>
         </div>
-      </div>
-      <div class="col-md-6 banner-img d-flex justify-content-center align-items-center" data-aos="fade-left" data-aos-delay="3000">
-        <img class="img img-fluid mt-5 mt-lg-0" src="./assets/images/banner-img.png" alt="">
       </div>
     </div>
   </div>
 </section>
+
 
 <!-- 🔹 NEW PARALLAX BACKGROUND SECTION -->
 <section class="parallax-section">
@@ -160,8 +250,6 @@
 
 
 
-
-
 <section class="about-us">
   <div class="container">
     <div class="row gy-5 g-lg-5 align-items-center">
@@ -193,10 +281,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="book-a-table">
-          <div class="anim-layer"></div>
-          <a href="#">Read More</a>
         </div>
       </div>
 
@@ -405,45 +489,39 @@
 </section>
 
       
-<!-- Reservation Section -->
-<section class="reservation">
-  <img class="d-md-none d-lg-block" src="./assets/images/find-a-table.png" alt="">
+<!-- Contact Us Section -->
+<section class="contact">
+  <img class="d-md-none d-lg-block" src="./assets/images/find-a-table.png" alt="Contact Illustration">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-lg-6 py-5 reservation-content px-5" data-aos="fade-right">
-        <div class="reservation-column py-5 px-3">
-          <h2 class="text-center text-white display-6 fw-bold">Start Your Subscription</h2>
+      <div class="col-lg-6 py-5 contact-content px-5" data-aos="fade-right">
+        <div class="contact-column py-5 px-3">
+          <h2 class="text-center text-white display-6 fw-bold">Contact Us</h2>
           <p class="text-center text-white">For corporate bulk orders, call us at <span>+91 98765 43210</span></p>
 
           <!-- ===== FORM START ===== -->
-          <form id="reservation-form">
+          <form id="contact-form">
             <div class="row mt-5 pt-3">
               <div class="col-12 col-lg-6">
                 <div class="input d-flex align-items-center">
-                  <i class="fa fa-phone py-2 px-3"></i>
+                  <i class="fa fa-user py-2 px-3"></i>
                   <input 
                     class="form-control bg-transparent border-0 px-3" 
                     type="text" 
-                    name="phone" 
-                    placeholder="Number" 
+                    name="user_name" 
+                    placeholder="Your Name" 
                     required>
                 </div>
               </div>
               <div class="col-12 col-lg-6 mt-4 mt-lg-0">
                 <div class="input d-flex align-items-center">
-                  <i class="fa fa-person py-2 px-3"></i>
-                  <select class="form-select bg-transparent border-0" name="persons" required>
-                    <option value="1 Person">1 Person</option>
-                    <option value="2 Person">2 Person</option>
-                    <option value="3 Person">3 Person</option>
-                    <option value="4 Person">4 Person</option>
-                    <option value="5 Person">5 Person</option>
-                    <option value="6 Person">6 Person</option>
-                    <option value="7 Person">7 Person</option>
-                    <option value="8 Person">8 Person</option>
-                    <option value="9 Person">9 Person</option>
-                    <option value="10 Person">10 Person</option>
-                  </select>
+                  <i class="fa fa-envelope py-2 px-3"></i>
+                  <input 
+                    class="form-control bg-transparent border-0 px-3" 
+                    type="email" 
+                    name="user_email" 
+                    placeholder="Email Address" 
+                    required>
                 </div>
               </div>
             </div>
@@ -451,74 +529,97 @@
             <div class="row mt-4">
               <div class="col-12 col-lg-6">
                 <div class="input d-flex align-items-center">
-                  <i class="fa fa-calendar py-2 px-3"></i>
+                  <i class="fa fa-phone py-2 px-3"></i>
                   <input 
-                    class="form-control datepicker bg-transparent border-0 px-3" 
-                    type="date" 
-                    name="date" 
+                    class="form-control bg-transparent border-0 px-3" 
+                    type="text" 
+                    name="user_phone" 
+                    placeholder="Phone Number" 
                     required>
                 </div>
               </div>
               <div class="col-12 col-lg-6 mt-4 mt-lg-0">
                 <div class="input d-flex align-items-center">
-                  <i class="fa fa-clock py-2 px-3"></i>
-                  <select class="form-select bg-transparent border-0" name="time" required>
-                    <option>7:00 AM</option>
-                    <option>8:00 AM</option>
-                    <option>9:00 AM</option>
-                    <option>10:00 AM</option>
-                    <option>11:00 AM</option>
-                    <option>12:00 AM</option>
-                    <option>1:00 PM</option>
-                    <option>2:00 PM</option>
-                    <option>3:00 PM</option>
-                    <option>4:00 PM</option>
-                    <option>5:00 PM</option>
-                    <option>6:00 PM</option>
-                    <option>7:00 PM</option>
-                    <option>8:00 PM</option>
-                    <option>9:00 PM</option>
-                    <option>10:00 PM</option>
+                  <i class="fa fa-briefcase py-2 px-3"></i>
+                  <select class="form-select bg-transparent border-0" name="subject" required>
+                    <option value="">Select Subject</option>
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Bulk Orders">Bulk Orders</option>
+                    <option value="Partnerships">Partnerships</option>
+                    <option value="Careers">Careers</option>
+                    <option value="Other">Other</option>
                   </select>
                 </div>
               </div>
             </div>
 
+            <div class="row mt-4">
+              <div class="col-12">
+                <div class="input d-flex align-items-start">
+                  <i class="fa fa-comment py-2 px-3"></i>
+                  <textarea
+                    class="form-control bg-transparent border-0 px-3"
+                    name="message"
+                    rows="4"
+                    placeholder="Your Message"
+                    required></textarea>
+                </div>
+              </div>
+            </div>
+
             <div class="d-flex justify-content-center mt-5 pt-3">
-              <div class="book-a-table">
+              <div class="send-message">
                 <div class="anim-layer"></div>
-                <button type="submit" class="btn text-white">Place Order</button>
+                <button type="submit" class="btn text-white">Send Message</button>
               </div>
             </div>
           </form>
           <!-- ===== FORM END ===== -->
         </div>
       </div>
-      <div class="col-lg-6 d-none d-md-block reservation-bg" data-aos="fade-left"></div>
+      <div class="col-lg-6 d-none d-md-block contact-bg" data-aos="fade-left"></div>
     </div>
   </div>
 </section>
 
 <!-- EmailJS Script -->
-<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script>
+  // Initialize EmailJS with your Public Key
   (function(){
-    emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your EmailJS public key
+    emailjs.init("L74HwXMHm7bAnlOIT"); // 🔑 Replace with your EmailJS Public Key
   })();
 
-  document.getElementById("reservation-form").addEventListener("submit", function(event) {
-    event.preventDefault();
+  window.addEventListener('load', () => {
+    console.log("Window loaded, ready to attach contact form listener");
 
-    emailjs.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", this)
-      .then(function() {
-        alert("✅ Reservation request sent successfully!");
-        document.getElementById("reservation-form").reset();
-      }, function(error) {
-        alert("❌ Failed to send. Please try again.");
-        console.error("EmailJS Error:", error);
-      });
+    const form = document.getElementById("contact-form");
+
+    if (!form) {
+      console.error("Contact form not found!");
+      return;
+    }
+
+    form.addEventListener("submit", function(event) {
+      event.preventDefault();
+      console.log("Contact form submission triggered");
+
+      emailjs.sendForm("service_t7mtg5o", "template_gyjnk4m", form)
+        .then((response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          alert("✅ Message sent successfully!");
+          form.reset();
+        })
+        .catch((error) => {
+          console.error("FAILED...", error);
+          alert("❌ Failed to send. Please check your EmailJS credentials and try again.");
+        });
+    });
   });
 </script>
+
+
+
 
 <!-- Changed classes to nxp- prefix for parallax section -->
 <!-- 🔹 NEW PARALLAX BACKGROUND SECTION -->
@@ -650,134 +751,6 @@
 <!-- GSAP + ScrollTrigger --> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-
-<script>
-window.addEventListener("load", () => {
-  gsap.registerPlugin(ScrollTrigger);
-
-  const img = document.querySelector(".banner-img img");
-
-  if (!img) {
-    console.warn("No .banner-img img found on the page. Script aborted.");
-    return;
-  }
-
-  const isTouch = ('ontouchstart' in window) || (navigator.maxTouchPoints && navigator.maxTouchPoints > 0);
-  let isMobile = window.innerWidth <= 768 || isTouch;
-
-  // Create cursor follower image
-  const cursorImg = document.createElement("img");
-  cursorImg.src = img.src;
-  cursorImg.alt = img.alt || "";
-  cursorImg.className = "banner-cursor-img";
-
-  Object.assign(cursorImg.style, {
-    position: "fixed",
-    left: "0px",
-    top: "0px",
-    width: "40px",
-    height: "auto",
-    transform: "translate(-50%, -50%) translate3d(0px,0px,0px)",
-    pointerEvents: "none",
-    zIndex: "9999",
-    opacity: "0",
-    willChange: "transform, opacity",
-    transition: "opacity 0.12s linear"
-  });
-
-  document.body.appendChild(cursorImg);
-  gsap.set(cursorImg, { x: -200, y: -200 });
-
-  if (!isTouch) document.documentElement.style.cursor = "none";
-
-  const moveCursorImg = (x, y, instant = false) => {
-    gsap.to(cursorImg, { x, y, duration: instant ? 0 : 0.06, ease: "power2.out" });
-  };
-
-  const showCursorImg = () => { if (cursorImg.style.opacity !== "0.95") gsap.to(cursorImg, { opacity: 0.95, duration: 0.12 }); };
-  const hideCursorImg = () => { if (cursorImg.style.opacity !== "0") gsap.to(cursorImg, { opacity: 0, duration: 0.12 }); };
-
-  if (window.PointerEvent) {
-    document.addEventListener("pointermove", (e) => { moveCursorImg(e.clientX, e.clientY); showCursorImg(); }, { passive: true });
-    window.addEventListener("pointerout", (e) => { if (!e.relatedTarget) hideCursorImg(); });
-  } else {
-    document.addEventListener("mousemove", (e) => { moveCursorImg(e.clientX, e.clientY); showCursorImg(); }, { passive: true });
-  }
-
-  document.addEventListener("touchstart", (e) => { if (e.touches.length > 0) moveCursorImg(e.touches[0].clientX, e.touches[0].clientY, true); }, { passive: true });
-  document.addEventListener("touchmove", (e) => { if (e.touches.length > 0) moveCursorImg(e.touches[0].clientX, e.touches[0].clientY); }, { passive: true });
-  document.addEventListener("touchend", () => {}, { passive: true });
-  window.addEventListener("blur", hideCursorImg);
-
-  if (!isMobile) {
-    // 🔹 Initial setup for banner image
-    gsap.set(img, { position: "fixed", top: "100px", right: "50px", zIndex: 999, width: "500px" });
-
-    // 🔹 Animate only inside the banner section
-    gsap.to(img, {
-      scrollTrigger: {
-        trigger: ".banner",
-        start: "top top",
-        end: "bottom top", // ends when banner scrolls out
-        scrub: true,
-        pin: false,
-        onLeave: () => {
-          // Move image to logo area when banner ends
-          gsap.to(img, {
-            duration: 1,
-            width: "50px",
-            top: "25px",
-            left: "35px",
-            right: "auto",
-            rotation: 0,
-            scale: 1,
-            ease: "power2.inOut",
-            onComplete: () => {
-              gsap.set(img, { position: "fixed", zIndex: 999 });
-              if (!img.hasFloating) {
-                img.hasFloating = true;
-                gsap.to(img, { y: "-=5", duration: 1.5, repeat: -1, yoyo: true, ease: "sine.inOut" });
-              }
-            }
-          });
-        },
-        onEnterBack: () => {
-          // Restore big banner image when scrolling back up
-          gsap.to(img, {
-            duration: 1,
-            width: "500px",
-            top: "100px",
-            right: "50px",
-            left: "auto",
-            scale: 1,
-            rotation: 0, // 🔹 reset rotation when re-entering
-            ease: "power2.inOut"
-          });
-        }
-      },
-      y: 0,
-      rotation: 0, // 🔹 No continuous rotation, it stops at banner bottom
-      scale: 1,
-      opacity: 1
-    });
-
-  } else {
-    img.style.display = "none"; // hide on mobile
-  }
-
-  // Handle resize
-  let resizeTimeout = null;
-  window.addEventListener("resize", () => {
-    clearTimeout(resizeTimeout);
-    resizeTimeout = setTimeout(() => {
-      const nowMobile = window.innerWidth <= 768 || ('ontouchstart' in window);
-      if (nowMobile !== isMobile) window.location.reload();
-    }, 200);
-  });
-});
-</script>
-
-
     </main>
     
 
@@ -818,7 +791,7 @@ window.addEventListener("load", () => {
               <i class="fa-solid fa-location-dot text-white fa-2x border-bottom pb-2"></i>
               <div class="ps-3">
                 <p class="mb-0">
-                  Bangalore, India
+                  Bangalore, Karnataka, India
                 </p>
               </div>
             </div>
@@ -826,7 +799,6 @@ window.addEventListener("load", () => {
               <i class="fa-solid fa-mobile text-white fa-2x border-bottom pb-2"></i>
               <div class="ps-3">
                 <p class="mb-0">
-                  +91 98765 43210 <br>
                   +91 98765 43210
                 </p>
               </div>
@@ -835,8 +807,7 @@ window.addEventListener("load", () => {
               <i class="fa-solid fa-envelope text-white fa-2x border-bottom pb-2"></i>
               <div class="ps-3">
                 <p class="mb-0">
-                  hello@mrburp.com <br>
-                  support@mrburp.com
+                  hello@mrburp.in
                 </p>
               </div>
             </div>
